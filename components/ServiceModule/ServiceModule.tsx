@@ -12,8 +12,8 @@ const ServiceModule: React.FC = () => {
     <StyledContainer>
       <StyledWrapper>
         <StyledHeader>
-          Предприятие ООО "Плитстройторг" осуществляет производство тротуарной
-          плитки из бетона
+          Предприятие ООО &quot;Плитстройторг&quot; осуществляет производство
+          тротуарной плитки из бетона
         </StyledHeader>
         <StyledText textAlign='center'>
           Выбирая нашу компанию Вы получаете готовое комплексное решение с

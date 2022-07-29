@@ -25,7 +25,7 @@ const ArticleModule: React.FC = () => {
   return (
     <StyledContainer>
       {articleData.map((article, i) => (
-        <React.Component key={article.id}>
+        <div key={article.id}>
           <StyledArticle
             ref={(el) => (contentRefs.current[i] = el)}
             style={
@@ -64,7 +64,7 @@ const ArticleModule: React.FC = () => {
               </StyledShowMoreButton>
             </StyledButtonWrapper>
           )}
-        </React.Component>
+        </div>
       ))}
     </StyledContainer>
   );
