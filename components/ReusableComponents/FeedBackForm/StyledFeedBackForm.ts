@@ -18,6 +18,7 @@ export const StyledWrapperFeedbackImg = styled.div`
 
 export const StyledFeedbackForm = styled.div`
   display: flex;
+  min-width: 40vw;
   flex: 1;
   justify-content: center;
   align-items: center;
