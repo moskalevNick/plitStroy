@@ -31,8 +31,8 @@ export const StyledIconWrapper = styled.div`
   right: 0;
   width: 20px;
   transition: all 0.3s;
+  padding-top: 10px;
   img {
-    padding-top: 10px;
     width: 200%;
   }
   :hover {

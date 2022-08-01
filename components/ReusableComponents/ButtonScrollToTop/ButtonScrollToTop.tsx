@@ -23,7 +23,7 @@ const ButtonScrollToTop = () => {
     return () => {
       window.removeEventListener('scroll', checkScrollTop, true);
     };
-  }, []);
+  }, [checkScrollTop]);
 
   return (
     <StyledButtonScrollToTop

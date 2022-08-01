@@ -20,7 +20,7 @@ const ArticleModule: React.FC = () => {
     if (contentRefs.current && active >= 0) {
       setSelectedHeight(contentRefs.current[active].scrollHeight);
     }
-  }, [active, contentRefs.current]);
+  }, [active]);
 
   return (
     <StyledContainer>
