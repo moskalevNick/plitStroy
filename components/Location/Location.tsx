@@ -27,10 +27,6 @@ const Location: React.FC = () => {
     googleMapsApiKey: String(process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY),
   });
 
-  const onSubmit = (value: string) => {
-    console.log('in location', value);
-  };
-
   const [selectedCenter, setSelectedCenter] = useState(false);
 
   return isLoaded ? (
@@ -56,6 +52,7 @@ const Location: React.FC = () => {
             }}
           >
             <StyledInfoMap>
+              <h2>ООО" Плитстройторг"</h2>
               <h2>Наш адрес:</h2>
               <h3>г.Могилёв, ул.Академика Павлова, д.7/7</h3>
               <a
