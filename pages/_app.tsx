@@ -5,8 +5,17 @@ import NavBar from '../components/NavBar/NavBar';
 import styledTheme from '../utils/styledTheme';
 import Footer from '../components/Footer/Footer';
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import Loader from '../components/ReusableComponents/Loader/Loader';
+import ButtonScrollToTop from '../components/ReusableComponents/ButtonScrollToTop/ButtonScrollToTop';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const [loadComplete, setLoadComplete] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setLoadComplete(true), 2000);
+  });
+
   return (
     <>
       <Head>
@@ -37,11 +46,16 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='msapplication-TileColor' content='#da532c' />
         <meta name='theme-color' content='#ffffff' />
       </Head>
-      <StyledThemeProvider theme={styledTheme}>
-        <NavBar />
-        <Component {...pageProps} />
-        <Footer />
-      </StyledThemeProvider>
+      {loadComplete ? (
+        <StyledThemeProvider theme={styledTheme}>
+          <NavBar />
+          <Component {...pageProps} />
+          <Footer />
+          <ButtonScrollToTop />
+        </StyledThemeProvider>
+      ) : (
+        <Loader />
+      )}
     </>
   );
 }

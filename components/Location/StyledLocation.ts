@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const StyledWrapperLocation = styled.div`
   position: relative;
   display: flex;
-  color: white;
-  background: #50533f;
+  color: ${({ theme }) => theme.colors.black};
+  background: ${({ theme }) => theme.colors.darkBlue};
+  border-top: 1px solid white;
   flex-direction: column;
   ${({ theme }) => theme.media.desktop} {
     padding: 0;
@@ -14,5 +15,5 @@ export const StyledWrapperLocation = styled.div`
 
 export const StyledInfoMap = styled.span`
   top: 20px;
-  color: black;
+  color: ${({ theme }) => theme.colors.black};
 `;

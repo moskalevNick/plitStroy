@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const StyledFooter = styled.div`
   display: flex;
   align-items: center;
-  background: #50533f;
+  background-color: ${({ theme }) => theme.colors.darkBlue};
   border-top: 1px solid white;
   padding: 0 3vw;
-  color: #d3c2ac;
-  height: 7vh;
+  color: ${({ theme }) => theme.colors.white};
+  height: 10vh;
   flex-direction: column;
   justify-content: space-around;
 

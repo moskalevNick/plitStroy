@@ -5,18 +5,8 @@ export const StyledLoaderWrapper = styled.div`
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #e0b153;
+  background-color: #42858f;
   z-index: 30;
-  animation: 2s show;
-
-  @keyframes show {
-    from {
-      top: 100%;
-    }
-    to {
-      top: 0%;
-    }
-  }
 `;
 
 export const StyledLoader = styled.div`
@@ -29,7 +19,7 @@ export const StyledLoader = styled.div`
   background-image: url('/img/icon.webp');
   background-position: center;
   background-size: cover;
-  animation: spin 4s infinite;
+  animation: spin 2s infinite;
 
   @keyframes spin {
     100% {

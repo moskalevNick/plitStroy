@@ -31,7 +31,7 @@ const ArticleModule: React.FC = () => {
             style={
               active === i && contentRefs.current.length
                 ? { maxHeight: `${selectedHeight}px` }
-                : { maxHeight: '390px' }
+                : { maxHeight: '410px' }
             }
           >
             <StyledTitleArticle>{article.title}</StyledTitleArticle>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
-  background-color: #e8e8e8;
+  background-color: ${({ theme }) => theme.colors.whiteGrey};
   padding: 50px 0;
 `;
 
@@ -22,7 +22,7 @@ export const StyledWrapperCards = styled.div`
 `;
 
 export const StyledCard = styled.div`
-  background-color: white;
+  background-color: ${({ theme }) => theme.colors.white};
   border: 1px solid black;
   width: 220px;
   margin: 10px auto;

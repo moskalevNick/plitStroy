@@ -14,10 +14,14 @@ const media = Object.fromEntries(
 
 const theme = {
   colors: {
-    white: '#FFFFFF',
-    black: '#000000',
+    white: '#fff',
+    darkBlue: '#42858f',
     orange: '#d1793e',
     darkGreen: '#50533f',
+    whiteGrey: '#e8e8e8',
+    dust: '#d59b6c',
+    grey: '#6e7491',
+    green: '#2c852c',
   },
   breakpoints,
   media,

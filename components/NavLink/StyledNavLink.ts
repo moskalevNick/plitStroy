@@ -8,7 +8,7 @@ export const StyledNavLink = styled.div<linkType>`
   font-size: 20px;
   width: 140px;
   text-align: center;
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   cursor: pointer;
   transition: all 0.5s;
   text-decoration: ${({ active }) => (active ? 'underline' : 'none')};

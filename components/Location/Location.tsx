@@ -20,7 +20,7 @@ const Location: React.FC = () => {
 
   const containerStyle = {
     width: isDesktop ? '60vw' : '100vw',
-    height: '86.1vh',
+    height: '86vh',
   };
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',

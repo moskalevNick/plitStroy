@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
 export const StyledContainer = styled.div`
-  background-color: #478989;
+  background-color: ${({ theme }) => theme.colors.darkBlue};
 `;

@@ -5,8 +5,8 @@ type halfPictureImgType = {
 };
 
 export const StyledHalfPictureWrapper = styled.section`
-  background: #50533f;
-  color: #f8f2e8;
+  background: ${({ theme }) => theme.colors.darkBlue};
+  color: ${({ theme }) => theme.colors.white};
   padding: 0;
   display: flex;
   justify-content: flex-start;

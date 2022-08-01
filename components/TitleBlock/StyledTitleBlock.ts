@@ -10,7 +10,7 @@ export const StyledContainer = styled.div`
 export const StyledTitle = styled.h1`
   margin: 0;
   text-align: center;
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   font-size: 30px;
   padding: 160px 60px;
   ${({ theme }) => theme.media.desktop} {

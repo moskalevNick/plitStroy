@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 export const StyledFeedbackWrapper = styled.section`
   position: relative;
-  background: #50533f;
-  color: #f8f2e8;
   padding: 0;
   display: flex;
   align-items: stretch;
@@ -33,7 +31,7 @@ export const StyledFeedbackForm = styled.div`
 `;
 
 export const StyledSubtitleFeedback = styled.span`
-  color: #d3c2ac;
+  color: ${({ theme }) => theme.colors.white};
   margin-bottom: 0px;
   padding-top: 60px;
   display: block;
@@ -45,6 +43,7 @@ export const StyledSubtitleFeedback = styled.span`
 `;
 
 export const StyledDescriptionFeedback = styled.h2`
+  color: ${({ theme }) => theme.colors.white};
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: 28px;
   max-width: 430px;
@@ -66,7 +65,7 @@ export const StyledPhone = styled.a`
   align-items: center;
   margin: 10px auto;
   :hover {
-    color: #d1793e;
+    color: ${({ theme }) => theme.colors.darkGreen};
   }
 
   ${({ theme }) => theme.media.desktop} {

@@ -5,7 +5,7 @@ type textType = {
 };
 
 export const StyledContainer = styled.div`
-  background-color: #e8e8e8;
+  background-color: ${({ theme }) => theme.colors.whiteGrey};
   font-family: 'Old Standard TT', serif;
   font-size: 20px;
   padding: 6vh 5vw 0px;

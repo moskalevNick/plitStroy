@@ -19,7 +19,7 @@ export const StyledNavBar = styled.header`
   justify-content: center;
   gap: 7vw;
   padding: 20px;
-  background-color: #42858f;
+  background-color: ${({ theme }) => theme.colors.darkBlue};
 `;
 
 export const StyledIconWrapper = styled.div`

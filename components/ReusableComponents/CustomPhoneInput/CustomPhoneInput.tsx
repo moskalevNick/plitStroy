@@ -23,7 +23,7 @@ const StyledButton = styled.button`
   font-size: large;
   text-align: center;
   background: #e0b153;
-  color: #ffffff;
+  color: ${({ theme }) => theme.colors.white};
   min-height: 53px;
   padding: 10px 24px;
   margin-top: 20px;
