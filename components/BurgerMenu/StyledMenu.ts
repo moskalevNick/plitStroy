@@ -15,7 +15,6 @@ export const StyledMenu = styled.nav<menuType>`
   justify-content: center;
   background: #effffa;
   transform: ${({ open }) => (open ? 'translateX(0)' : 'translateX(-100%)')};
-  height: 35vh;
   text-align: left;
   top: 0px;
   left: 0;
@@ -23,7 +22,7 @@ export const StyledMenu = styled.nav<menuType>`
   width: 100%;
   z-index: 30;
   padding: 0;
-  padding-top: 20px;
+  padding-top: 30px;
 
   @media (min-width: 400px) {
     padding: 2rem;
