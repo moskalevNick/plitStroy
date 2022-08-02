@@ -44,7 +44,7 @@ export const StyledDescription = styled.div`
   text-align: center;
   color: ${({ theme }) => theme.colors.black};
   text-transform: capitalize;
-  font-size: large;
+  font-size: 1.1em;
   padding-bottom: 10px;
 `;
 

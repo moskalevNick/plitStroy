@@ -26,6 +26,7 @@ export const StyledFooter = styled.div`
 export const StyledMySignature = styled.div``;
 
 export const StyledRef = styled.a`
+  padding-left: 0.3rem;
   opacity: 0.5;
   color: inherit;
   text-decoration: none;

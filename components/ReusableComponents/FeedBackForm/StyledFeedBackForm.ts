@@ -45,7 +45,6 @@ export const StyledSubtitleFeedback = styled.span`
 export const StyledDescriptionFeedback = styled.h2`
   color: ${({ theme }) => theme.colors.white};
   font-family: 'Brandon Grotesque', sans-serif;
-  font-size: 28px;
   max-width: 430px;
   line-height: 1.3;
   font-size: calc(32px + 22 * ((20vw - 718px) / 692));

@@ -7,7 +7,7 @@ type textType = {
 export const StyledContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.whiteGrey};
   font-family: 'Old Standard TT', serif;
-  font-size: 20px;
+  font-size: 1.25em;
   padding: 6vh 5vw 0px;
 
   ${({ theme }) => theme.media.tablet} {

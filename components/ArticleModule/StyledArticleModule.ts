@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const StyledContainer = styled.div`
   background-color: ${({ theme }) => theme.colors.whiteGrey};
   font-family: 'Old Standard TT', serif;
-  font-size: 20px;
+  font-size: 1.4em;
   padding-bottom: 20px;
 `;
 
@@ -25,19 +25,28 @@ export const StyledArticle = styled.div`
 
 export const StyledTitleArticle = styled.h1`
   text-align: center;
-  font-size: 30px;
+  font-size: 1.3em;
+
   ${({ theme }) => theme.media.desktop} {
     font-size: calc(34px + 20 * ((100vw - 768px) / 692));
   }
 `;
 
 export const StyledSubtitle = styled.h3`
+  text-align: center;
   margin: 0;
   padding-left: 20px;
+  ${({ theme }) => theme.media.desktop} {
+    text-align: start;
+  }
 `;
 
 export const StyledText = styled.p`
+  text-align: center;
   text-indent: 30px;
+  ${({ theme }) => theme.media.desktop} {
+    text-align: start;
+  }
 `;
 
 export const StyledButtonWrapper = styled.div`
@@ -50,6 +59,7 @@ export const StyledShowMoreButton = styled.button`
   background-color: transparent;
   text-decoration: underline;
   cursor: pointer;
-  font-size: 16px;
+  letter-spacing: 0.2em;
+  font-size: 0.9em;
   margin-top: 10px;
 `;

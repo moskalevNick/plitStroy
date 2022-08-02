@@ -20,7 +20,7 @@ const StyledWrapperPhoneInput = styled.div`
 `;
 
 const StyledButton = styled.button`
-  font-size: large;
+  font-size: 1.2em;
   text-align: center;
   background: #e0b153;
   color: ${({ theme }) => theme.colors.white};

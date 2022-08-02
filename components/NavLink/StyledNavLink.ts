@@ -5,7 +5,7 @@ type linkType = {
 };
 
 export const StyledNavLink = styled.div<linkType>`
-  font-size: 20px;
+  font-size: 1.3em;
   width: 140px;
   text-align: center;
   color: ${({ theme }) => theme.colors.white};

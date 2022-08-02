@@ -22,7 +22,7 @@ const ServiceModule: React.FC = () => {
       </StyledWrapper>
 
       <StyledWrapper>
-        <StyledHeader>МЫ ПРЕДЛАГАЕМ ВАМ:</StyledHeader>
+        <StyledHeader>Мы предлагаем Вам:</StyledHeader>
         <StyledText>
           <p>- Помощь при выборе тротуарной плитки</p>
           <p>- Организацию доставки</p>

@@ -16,6 +16,10 @@ export const StyledWrapperCards = styled.div`
   justify-content: space-around;
   flex-wrap: wrap;
 
+  ${({ theme }) => theme.media.tablet} {
+    flex: 1 1 160px;
+  }
+
   ${({ theme }) => theme.media.desktop} {
     flex-direction: row;
   }
@@ -24,8 +28,15 @@ export const StyledWrapperCards = styled.div`
 export const StyledCard = styled.div`
   background-color: ${({ theme }) => theme.colors.white};
   border: 1px solid black;
-  width: 220px;
   margin: 10px auto;
+  width: 260px;
+
+  ${({ theme }) => theme.media.desktop} {
+    width: auto;
+  }
+  ${({ theme }) => theme.media.maximum} {
+    width: 250px;
+  }
 `;
 
 export const StyledCardHeader = styled.h3`
