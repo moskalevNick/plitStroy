@@ -18,22 +18,22 @@ export const StyledContainer = styled.div`
   animation: color 9s infinite linear;
   @keyframes color {
     0% {
-      background-color: #33cccc;
+      background-color: ${({ theme }) => theme.colors.darkBlue};
     }
     20% {
-      background-color: #1aab1c;
+      background-color: ${({ theme }) => theme.colors.orange};
     }
     40% {
-      background-color: #91a31a;
+      background-color: ${({ theme }) => theme.colors.darkGreen};
     }
     60% {
-      background-color: #b08e04;
+      background-color: ${({ theme }) => theme.colors.green};
     }
     80% {
-      background-color: #29a62c;
+      background-color: ${({ theme }) => theme.colors.dust};
     }
     100% {
-      background-color: #33cccc;
+      background-color: ${({ theme }) => theme.colors.grey};
     }
   }
 `;
@@ -51,7 +51,7 @@ export const StyledProductName = styled.h3`
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 50px;
+  height: 70px;
   padding: 0 20px;
 `;
 
@@ -67,7 +67,7 @@ export const StyledProductImage = styled.img`
 
 export const StyledProductDescription = styled.div`
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   width: 100%;
   text-align: center;
 `;

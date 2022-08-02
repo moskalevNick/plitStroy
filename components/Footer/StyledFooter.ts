@@ -10,6 +10,7 @@ export const StyledFooter = styled.div`
   height: 10vh;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
 
   ${({ theme }) => theme.media.tablet} {
     flex-direction: row;
@@ -18,14 +19,13 @@ export const StyledFooter = styled.div`
     padding: 0 8vw;
   }
   ${({ theme }) => theme.media.desktop} {
-    padding: 0 15vw;
+    padding: 0 13vw;
   }
 `;
 
 export const StyledMySignature = styled.div``;
 
 export const StyledRef = styled.a`
-  padding-left: 0.3rem;
   opacity: 0.5;
   color: inherit;
   text-decoration: none;

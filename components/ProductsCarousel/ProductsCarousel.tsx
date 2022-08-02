@@ -408,7 +408,7 @@ const ProductsCarousel: React.FC = () => {
                 />
               </StyledProductWrapperImage>
               <StyledProductDescription>
-                <StyledProductPrice>{`${product.price}руб`}</StyledProductPrice>
+                <StyledProductPrice>{`${product.price} руб`}</StyledProductPrice>
                 {product.colored && (
                   <StyledProductColored>Цветная +30%</StyledProductColored>
                 )}
