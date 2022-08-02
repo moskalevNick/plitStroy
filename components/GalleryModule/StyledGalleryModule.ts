@@ -4,7 +4,7 @@ export const StyledContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: ${({ theme }) => theme.colors.dust};
+  background-color: ${({ theme }) => theme.colors.whiteGrey};
   padding-top: 30px;
 
   ${({ theme }) => theme.media.tablet} {
@@ -18,13 +18,13 @@ export const StyledHeader = styled.h1`
 `;
 
 export const StyledCard = styled.div`
+  color: ${({ theme }) => theme.colors.white};
   margin: 10px 10px;
-  border: solid 1px #d59b6c;
   border-top-left-radius: 37px 140px;
   border-top-right-radius: 23px 130px;
   border-bottom-left-radius: 110px 19px;
   border-bottom-right-radius: 120px 24px;
-  background-color: ${({ theme }) => theme.colors.grey};
+  background-color: ${({ theme }) => theme.colors.darkBlue};
 
   :hover {
     transform: translateY(-10px) rotate(1deg);

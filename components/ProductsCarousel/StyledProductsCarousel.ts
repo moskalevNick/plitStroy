@@ -18,7 +18,7 @@ export const StyledContainer = styled.div`
   animation: color 9s infinite linear;
   @keyframes color {
     0% {
-      background-color: ${({ theme }) => theme.colors.darkBlue};
+      background-color: ${({ theme }) => theme.colors.grey};
     }
     25% {
       background-color: ${({ theme }) => theme.colors.orange};
