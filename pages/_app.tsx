@@ -44,10 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
         <meta name='msapplication-TileColor' content='#da532c' />
-        <meta
-          name='theme-color'
-          content={`${({ theme }) => theme.colors.darkBlue}`}
-        />
+        <meta name='theme-color' content='#6e7491' />
       </Head>
       {loadComplete ? (
         <StyledThemeProvider theme={styledTheme}>
