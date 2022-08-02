@@ -22,7 +22,8 @@ const StyledWrapperPhoneInput = styled.div`
 const StyledButton = styled.button`
   font-size: 1.2em;
   text-align: center;
-  background: #e0b153;
+  text-transform: capitalize;
+  background: ${({ theme }) => theme.colors.orange};
   color: ${({ theme }) => theme.colors.white};
   min-height: 53px;
   padding: 10px 24px;

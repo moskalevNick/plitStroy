@@ -78,7 +78,7 @@ const FeedbackForm: React.FC = () => {
         </StyledPhone>
         <StyledPhone href='mailto:1403000@mail.ru'>
           Email: 1403000@mail.ru
-          <StyledImg src='/img/mail.png' />
+          <StyledImg src='/img/mail.webp' />
         </StyledPhone>
       </StyledSubtitleFeedback>
     </StyledFeedbackForm>

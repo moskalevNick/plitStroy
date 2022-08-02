@@ -24,10 +24,10 @@ type NavBarType = {
 };
 
 const links: linkType[] = [
-  { name: 'услуги', path: '/services' },
-  { name: 'статьи', path: '/articles' },
-  { name: 'галерея', path: '/gallery' },
-  { name: 'как нас найти?', path: '/location' },
+  { name: 'Услуги', path: '/services' },
+  { name: 'Статьи', path: '/articles' },
+  { name: 'Галерея', path: '/gallery' },
+  { name: 'Как нас найти?', path: '/location' },
 ];
 
 const NavBar: React.FC<NavBarType> = () => {

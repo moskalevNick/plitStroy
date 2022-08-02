@@ -20,16 +20,13 @@ export const StyledContainer = styled.div`
     0% {
       background-color: ${({ theme }) => theme.colors.darkBlue};
     }
-    20% {
+    25% {
       background-color: ${({ theme }) => theme.colors.orange};
     }
-    40% {
+    50% {
       background-color: ${({ theme }) => theme.colors.darkGreen};
     }
-    60% {
-      background-color: ${({ theme }) => theme.colors.green};
-    }
-    80% {
+    75% {
       background-color: ${({ theme }) => theme.colors.dust};
     }
     100% {
@@ -66,6 +63,7 @@ export const StyledProductImage = styled.img`
 `;
 
 export const StyledProductDescription = styled.div`
+  color: ${({ theme }) => theme.colors.white};
   position: absolute;
   bottom: 20px;
   width: 100%;

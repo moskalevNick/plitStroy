@@ -9,7 +9,7 @@ const Price: React.FC = () => {
 
   return (
     <StyledContainer>
-      <CustomButton label='скачать прайс' onClick={downloadPrice} />
+      <CustomButton label='Cкачать прайс' onClick={downloadPrice} />
     </StyledContainer>
   );
 };

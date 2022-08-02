@@ -7,12 +7,12 @@ type typeScrollBar = {
 export const StyledProgressContainer = styled.div`
   height: 3px;
   width: 100%;
-  background: #fff;
+  background: ${({ theme }) => theme.colors.white};
   border: 1px solid #42858f;
 `;
 
 export const StyledProgressBarMeter = styled.div<typeScrollBar>`
   height: 3px;
-  background: #000;
+  background: ${({ theme }) => theme.colors.orange};
   width: ${({ scrollPosition }) => scrollPosition}%;
 `;

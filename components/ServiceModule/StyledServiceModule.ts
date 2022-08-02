@@ -9,12 +9,12 @@ export const StyledContainer = styled.div`
   font-family: 'Old Standard TT', serif;
   font-size: 1.25em;
   padding: 6vh 5vw 0px;
+  min-height: 86.1vh;
 
   ${({ theme }) => theme.media.tablet} {
   }
 
   ${({ theme }) => theme.media.desktop} {
-    height: 86.1vh;
     padding: 20px 5vw;
   }
   ${({ theme }) => theme.media.maximum} {

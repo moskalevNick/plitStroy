@@ -28,3 +28,8 @@ a {
     padding-left: 50px;
   }
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #e8e8e8 !important;
+}

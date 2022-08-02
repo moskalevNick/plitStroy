@@ -6,7 +6,7 @@ type linkType = {
 
 export const StyledNavLink = styled.div<linkType>`
   font-size: 1.3em;
-  width: 140px;
+  width: 150px;
   text-align: center;
   color: ${({ theme }) => theme.colors.white};
   cursor: pointer;
@@ -18,5 +18,11 @@ export const StyledNavLink = styled.div<linkType>`
     transform: perspective(1px);
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
     text-decoration: underline;
+  }
+  :nth-child(2) {
+    margin-right: 50px;
+  }
+  :nth-child(3) {
+    margin-left: 50px;
   }
 `;

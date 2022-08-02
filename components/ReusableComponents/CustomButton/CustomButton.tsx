@@ -62,10 +62,8 @@ const StyledButton = styled.button<buttonStyleType>`
 `;
 
 const StyledButtonText = styled.span`
-  font-family: 'Old Standard TT', serif;
   position: relative;
   z-index: 10;
-  text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.22em;
   color: #ffffff;
