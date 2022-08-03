@@ -18,19 +18,19 @@ export const StyledContainer = styled.div`
   animation: color 9s infinite linear;
   @keyframes color {
     0% {
-      background-color: ${({ theme }) => theme.colors.grey};
+      background-color: ${({ theme }) => theme.colors.darkGreen};
     }
     25% {
-      background-color: ${({ theme }) => theme.colors.orange};
+      background-color: ${({ theme }) => theme.colors.darkBlue};
     }
     50% {
-      background-color: ${({ theme }) => theme.colors.darkBlue};
+      background-color: ${({ theme }) => theme.colors.orange};
     }
     75% {
       background-color: ${({ theme }) => theme.colors.dust};
     }
     100% {
-      background-color: ${({ theme }) => theme.colors.grey};
+      background-color: ${({ theme }) => theme.colors.darkGreen};
     }
   }
 `;
