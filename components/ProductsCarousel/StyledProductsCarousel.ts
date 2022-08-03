@@ -24,7 +24,7 @@ export const StyledContainer = styled.div`
       background-color: ${({ theme }) => theme.colors.orange};
     }
     50% {
-      background-color: ${({ theme }) => theme.colors.darkGreen};
+      background-color: ${({ theme }) => theme.colors.darkBlue};
     }
     75% {
       background-color: ${({ theme }) => theme.colors.dust};
