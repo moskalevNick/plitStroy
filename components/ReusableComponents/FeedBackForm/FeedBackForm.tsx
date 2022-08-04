@@ -9,6 +9,7 @@ import {
   StyledDescriptionFeedback,
   StyledPhone,
   StyledImg,
+  StyledLogo,
 } from './StyledFeedBackForm';
 
 const FeedbackForm: React.FC = () => {
@@ -80,6 +81,7 @@ const FeedbackForm: React.FC = () => {
           Email: 1403000@mail.ru
           <StyledImg src='/img/mail.webp' />
         </StyledPhone>
+        <StyledLogo />
       </StyledSubtitleFeedback>
     </StyledFeedbackForm>
   );

@@ -31,6 +31,7 @@ export const StyledFeedbackForm = styled.div`
 `;
 
 export const StyledSubtitleFeedback = styled.span`
+  position: relative;
   color: ${({ theme }) => theme.colors.white};
   margin-bottom: 0px;
   padding-top: 60px;
@@ -69,5 +70,19 @@ export const StyledPhone = styled.a`
 
   ${({ theme }) => theme.media.desktop} {
     justify-content: left;
+  }
+`;
+
+export const StyledLogo = styled.div`
+  height: 50px;
+  width: 150px;
+  margin: 20px auto 0px;
+  background: url('/img/logo.webp');
+  background-size: cover;
+  border-radius: 10px;
+  ${({ theme }) => theme.media.desktop} {
+    margin: 20px 0 0;
+    height: 100px;
+    width: 300px;
   }
 `;

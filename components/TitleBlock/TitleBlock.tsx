@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledContainer, StyledTitle } from './StyledTitleBlock';
+import { StyledContainer, StyledTitle, StyledLogo } from './StyledTitleBlock';
 
 const TitleBlock: React.FC = () => {
   return (
@@ -8,6 +8,7 @@ const TitleBlock: React.FC = () => {
         Производство и укладка тротуарной плитки в Могилёве и Могилёвской
         области
       </StyledTitle>
+      <StyledLogo />
     </StyledContainer>
   );
 };

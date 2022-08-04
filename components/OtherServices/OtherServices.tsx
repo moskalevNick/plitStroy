@@ -34,7 +34,7 @@ const Services: serviceType[] = [
 const OtherServices: React.FC = () => {
   return (
     <StyledContainer>
-      <StyledHeader>Так же оказываем следующие услуги:</StyledHeader>
+      <StyledHeader>Также оказываем следующие услуги:</StyledHeader>
       <StyledWrapperCards>
         {Services.map((service) => (
           <StyledCard key={service.id}>

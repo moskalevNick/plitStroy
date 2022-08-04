@@ -28,7 +28,7 @@ export const StyledIconWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   left: 0;
-  right: 0;
+  right: 20px;
   width: 20px;
   transition: all 0.3s;
   padding-top: 10px;
