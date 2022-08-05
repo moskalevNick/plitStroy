@@ -13,7 +13,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [loadComplete, setLoadComplete] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setLoadComplete(true), 2000);
+    setTimeout(
+      () => typeof window !== 'undefined' && setLoadComplete(true),
+      1850
+    );
   });
 
   return (

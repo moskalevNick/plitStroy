@@ -9,6 +9,7 @@ import {
 import FeedbackForm from '../ReusableComponents/FeedBackForm/FeedBackForm';
 import { useIsMediaQuery } from '../../utils/hooks/isMediaQuery';
 import theme from '../../utils/styledTheme';
+import Loader from '../ReusableComponents/Loader/Loader';
 
 const mapLocation = {
   lat: 53.86103290756254,
@@ -70,7 +71,7 @@ const Location: React.FC = () => {
       <FeedbackForm />
     </StyledWrapperLocation>
   ) : (
-    <></>
+    <Loader />
   );
 };
 
