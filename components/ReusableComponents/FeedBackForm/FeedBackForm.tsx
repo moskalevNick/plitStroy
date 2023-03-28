@@ -68,7 +68,7 @@ const FeedbackForm: React.FC = () => {
           +375 (29) 652-38-99
         </StyledPhone>
         <StyledPhone href='mailto:plit-stroi@mail.ru'>
-          Email: mailto:plit-stroi@mail.ru
+          Email: plit-stroi@mail.ru
         </StyledPhone>
         <StyledLogo />
       </StyledSubtitleFeedback>
