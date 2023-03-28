@@ -51,11 +51,6 @@ export const StyledDescriptionFeedback = styled.h2`
   font-size: calc(32px + 22 * ((20vw - 718px) / 692));
 `;
 
-export const StyledImg = styled.img`
-  margin-left: 10px;
-  width: 50px;
-`;
-
 export const StyledPhone = styled.a`
   font-size: 1.1rem;
   text-decoration: none;
@@ -63,7 +58,7 @@ export const StyledPhone = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
+  margin: 20px auto;
   :hover {
     color: ${({ theme }) => theme.colors.darkGreen};
   }

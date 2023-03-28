@@ -317,28 +317,21 @@ const products: productType[] = [
   {
     id: '42',
     name: 'Камень бортовой БР 100.30.15',
-    price: 12.6,
+    price: 13.8,
     imgPath: '/img/products/product_42.jpg',
-    colored: false,
-  },
-  {
-    id: '43',
-    name: 'Камень бортовой БРТ 100.20.8',
-    price: 5,
-    imgPath: '/img/products/product_43.jpg',
     colored: false,
   },
   {
     id: '44',
     name: 'Камень бортовой БРТ 100.22.7,5',
-    price: 6,
+    price: 7.5,
     imgPath: '/img/products/product_44.jpg',
     colored: true,
   },
   {
     id: '45',
-    name: 'Камень бортовой БРТ 100.20.4,5',
-    price: 4.5,
+    name: 'Камень бортовой БРТ 100.20.5',
+    price: 5.5,
     imgPath: '/img/products/product_45.jpg',
     colored: true,
   },
@@ -352,21 +345,21 @@ const products: productType[] = [
   {
     id: '47',
     name: 'Камень бортовой БРТ 50.20.3,5',
-    price: 2.5,
+    price: 3,
     imgPath: '/img/products/product_47.jpg',
     colored: true,
   },
   {
     id: '48',
     name: 'Желоб водосточный 50.16.5',
-    price: 2.5,
+    price: 3,
     imgPath: '/img/products/product_48.jpg',
     colored: true,
   },
   {
     id: '49',
     name: 'Желоб водосточный 35.25.8',
-    price: 3.5,
+    price: 4,
     imgPath: '/img/products/product_49.jpg',
     colored: true,
   },
@@ -410,7 +403,7 @@ const ProductsCarousel: React.FC = () => {
               <StyledProductDescription>
                 <StyledProductPrice>{`${product.price} руб`}</StyledProductPrice>
                 {product.colored && (
-                  <StyledProductColored>Цветная +30%</StyledProductColored>
+                  <StyledProductColored>Цветная +40%</StyledProductColored>
                 )}
               </StyledProductDescription>
             </StyledCard>

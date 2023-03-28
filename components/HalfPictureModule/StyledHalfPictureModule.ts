@@ -8,6 +8,7 @@ export const StyledHalfPictureWrapper = styled.section`
   background: ${({ theme }) => theme.colors.darkBlue};
   color: ${({ theme }) => theme.colors.white};
   padding: 0;
+  border-top: 1px solid white;
   display: flex;
   justify-content: flex-start;
   text-align: center;

@@ -8,7 +8,6 @@ import {
   StyledSubtitleFeedback,
   StyledDescriptionFeedback,
   StyledPhone,
-  StyledImg,
   StyledLogo,
 } from './StyledFeedBackForm';
 
@@ -65,21 +64,11 @@ const FeedbackForm: React.FC = () => {
       <CustomPhoneInput placeholderButton={'отправить'} onSubmit={onSubmit} />
       <StyledSubtitleFeedback>
         Либо можете связаться с нами
-        <StyledPhone href='tel:+37529 140 30 00'>
-          +375 (29) 140-30-00
-          <StyledImg src='/img/mobile_providers/A1.webp' />
+        <StyledPhone href='tel:+37529 652 38 99'>
+          +375 (29) 652-38-99
         </StyledPhone>
-        <StyledPhone href='tel:+37529 828-75-85'>
-          +375 (29) 828-75-85
-          <StyledImg src='/img/mobile_providers/mts.webp' />
-        </StyledPhone>
-        <StyledPhone href='tel:+37525 544-27-09'>
-          +375 (25) 544-27-09
-          <StyledImg src='/img/mobile_providers/life.webp' />
-        </StyledPhone>
-        <StyledPhone href='mailto:1403000@mail.ru'>
-          Email: 1403000@mail.ru
-          <StyledImg src='/img/mail.webp' />
+        <StyledPhone href='mailto:plit-stroi@mail.ru'>
+          Email: mailto:plit-stroi@mail.ru
         </StyledPhone>
         <StyledLogo />
       </StyledSubtitleFeedback>

@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Плитка -Плитстройторг</title>
+        <title>Плитка - ООО &quot;Плит-строй&quot;</title>
         <meta
           name='description'
           content='Плитка тротуарная (30 видов) Могилев, тактильная плитка, бордюр, облицовочный камень ,забор, и другие изделия из бетона. Доставка. Производство.'

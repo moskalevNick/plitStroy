@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <StyledFooter>
       © 2008-{new Date().getFullYear()}. Все права защищены
-      ООО&quot;Плитстройторг&quot;
+      ООО&quot;Плит-строй&quot;
       <StyledMySignature>
         Разработка web-приложений
         <StyledRef

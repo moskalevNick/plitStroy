@@ -12,8 +12,8 @@ import theme from '../../utils/styledTheme';
 import Loader from '../ReusableComponents/Loader/Loader';
 
 const mapLocation = {
-  lat: 53.86103290756254,
-  lng: 30.367554940372184,
+  lat: 53.352542,
+  lng: 32.101521,
 };
 
 const Location: React.FC = () => {
@@ -40,7 +40,7 @@ const Location: React.FC = () => {
         <Marker
           position={mapLocation}
           icon='./img/iconSmall.webp'
-          title='Наш адрес: г.Могилёв, ул.Академика Павлова, д.7/7'
+          title='Наш адрес: Могилевская обл., Костюковичский р-н, Демидовичский с/с, д. Прусино, д. 1'
           onClick={() => {
             setSelectedCenter(true);
           }}
@@ -53,12 +53,15 @@ const Location: React.FC = () => {
             }}
           >
             <StyledInfoMap>
-              <h2>ООО &quot;Плитстройторг&quot;</h2>
+              <h2>ООО &quot;Плит-строй&quot;</h2>
               <h2>Наш адрес:</h2>
-              <h3>г.Могилёв, ул.Академика Павлова, д.7/7</h3>
+              <h3>
+                Могилевская обл., Костюковичский р-н, Демидовичский с/с, д.
+                Прусино, д. 1
+              </h3>
               <a
                 target='_blank'
-                href='https://www.google.com/maps/@53.8610162,30.3676476,21z?hl=ru-RU'
+                href='https://www.google.com/maps/@53.352542,32.101521,21z?hl=ru-RU'
                 tab-index='0'
                 rel='noreferrer'
               >
