@@ -219,7 +219,7 @@ const products: productType[] = [
   {
     id: '28',
     name: 'Плитка тротуарная "Клевер узорчатый" Ф',
-    price: 16,
+    price: 18,
     imgPath: '/img/products/product_28.jpg',
     colored: true,
   },
@@ -233,7 +233,7 @@ const products: productType[] = [
   {
     id: '30',
     name: 'Плитка тротуарная "Кирпичик" П20.10.6 М-а',
-    price: 16.8,
+    price: 17.5,
     imgPath: '/img/products/product_30.jpg',
     colored: true,
   },
