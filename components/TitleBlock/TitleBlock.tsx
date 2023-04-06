@@ -5,8 +5,8 @@ const TitleBlock: React.FC = () => {
   return (
     <StyledContainer>
       <StyledTitle>
-        Производство и укладка тротуарной плитки в Могилёве и Могилёвской
-        области
+        Производство тротуарной плитки и других изделий из бетона в
+        г.Костюковичи
       </StyledTitle>
       <StyledLogo />
     </StyledContainer>

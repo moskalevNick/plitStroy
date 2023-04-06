@@ -207,7 +207,7 @@ const products: productType[] = [
     name: 'Плитка тротуарная " Клевер Краковский" Ф',
     price: 18,
     imgPath: '/img/products/product_26.jpg',
-    colored: true,
+    colored: false,
   },
   {
     id: '27',
@@ -221,7 +221,7 @@ const products: productType[] = [
     name: 'Плитка тротуарная "Клевер узорчатый" Ф',
     price: 18,
     imgPath: '/img/products/product_28.jpg',
-    colored: true,
+    colored: false,
   },
   {
     id: '29',
@@ -401,7 +401,7 @@ const ProductsCarousel: React.FC = () => {
                 />
               </StyledProductWrapperImage>
               <StyledProductDescription>
-                <StyledProductPrice>{`${product.price} руб`}</StyledProductPrice>
+                <StyledProductPrice>{`${product.price} руб (без НДС)`}</StyledProductPrice>
                 {product.colored && (
                   <StyledProductColored>Цветная +40%</StyledProductColored>
                 )}
